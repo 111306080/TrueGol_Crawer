@@ -19,16 +19,6 @@ pip install -r requirements.txt
 
 修改 `main.py` 中的餐廳類型來避免重複爬取：
 
-```python
-# 第一次爬取
-restaurant_types = ["Japanese Restaurant", "Chinese Restaurant", "Italian Restaurant"]
-
-# 第二次爬取（改用不同類型）
-restaurant_types = ["Fast Food", "Steakhouse", "Seafood Restaurant"]
-
-# 第三次爬取
-restaurant_types = ["Thai Restaurant", "Vietnamese Restaurant", "Mexican Restaurant"]
-```
 
 ## 執行
 
